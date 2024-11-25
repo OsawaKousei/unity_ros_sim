@@ -56,5 +56,14 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "robo_sim_test.sln"
+    "dotnet.defaultSolution": "robo_sim_test.sln",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    },
+    "cSpell.words": ["Behaviour", "rgba"]
 }
