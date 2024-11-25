@@ -26,7 +26,6 @@ public class Ros2MsgTest : MonoBehaviour
                 chatter_pub = ros2Node.CreatePublisher<std_msgs.msg.String>("hello_from_Unity");
             }
         }
-
         // スペースキーが押されたら
         if (Input.GetKeyDown(KeyCode.Space))
         {

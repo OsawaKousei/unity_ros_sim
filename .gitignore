@@ -8,6 +8,10 @@ Temp/
 
 # logs
 *.log
+*.blob
 
 # ros2-for-unity
 Ros2ForUnity/
+
+# build
+RoboSimTest_Data/
